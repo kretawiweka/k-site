@@ -1,0 +1,15 @@
+@import '_normalize';
+@import './pages/home';
+@import './components/common/card';
+
+body,
+html {
+  font-family: 'Ubuntu', sans-serif;
+  color: #424242;
+  background-color: #e8eaee;
+}
+.divider {
+  border-top: 1px solid #424242;
+  opacity: 0.1;
+}
+

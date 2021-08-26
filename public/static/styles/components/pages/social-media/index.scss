@@ -1,0 +1,23 @@
+.social-media {
+  .content {
+    display: flex;
+    flex-direction: column;
+    .item {
+      display: flex;
+      flex-direction: row;
+      padding: 7px 0;
+      .link-item {
+        color: #5374ff;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+        text-decoration: none;
+        margin: 0 0 0 7px;
+      }
+      .icon-item {
+        width: 21px;
+        height: 21px;
+      }
+    }
+  }
+}

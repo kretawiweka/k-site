@@ -1,0 +1,36 @@
+@import '../../components/pages/article';
+@import '../../components/pages/career/';
+@import '../../components/pages/profile';
+@import '../../components/pages/social-media';
+
+.container {
+  margin: 0 auto;
+  max-width: 1024px;
+  @media (max-width: 767px) {
+    margin: 14px;
+  }
+  .section {
+    display: flex;
+    &.column {
+      flex-direction: column;
+    }
+    &.row {
+      flex-direction: row;
+      @media (max-width: 767px) {
+        flex-direction: column;
+      }
+    }
+    .item-section {
+      padding: 14px;
+      &.profil-section {
+        flex: 10 !important;
+      }
+      &:first-child {
+        flex: 3;
+      }
+      &:last-child {
+        flex: 2;
+      }
+    }
+  }
+}

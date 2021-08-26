@@ -1,0 +1,57 @@
+.career {
+  .content {
+    .item {
+      .item-title {
+        display: flex;
+        @media (max-width: 767px) {
+          flex-direction: column;
+        }
+        .item-img {
+          height: 100%;
+          border-radius: 21px;
+          margin-right: 7px;
+          @media (max-width: 767px) {
+            width: 30%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 14px;
+          }
+        }
+        .job-title {
+          font-size: 18px;
+          font-weight: 600;
+          margin: 7px;
+        }
+        .company {
+          font-size: 18px;
+          font-weight: 400;
+          margin: 7px;
+        }
+        .work-time {
+          font-size: 15px;
+          font-weight: 400;
+          margin: 7px;
+        }
+      }
+      .item-content {
+        p {
+          font-size: 14px;
+          line-height: 24px;
+          margin: 7px;
+          font-weight: 400;
+        }
+        ul {
+          font-size: 14px;
+          line-height: 24px;
+          font-weight: 400;
+          padding-inline-start: 28px;
+          margin-block-start: 0.5em;
+          margin-block-end: 0.5em;
+        }
+      }
+    }
+    .company-divider {
+      margin: 21px;
+    }
+  }
+}

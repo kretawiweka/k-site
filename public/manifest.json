@@ -1,0 +1,22 @@
+{
+    "short_name": "Core CC SIPP",
+    "name": "Core Credit Card Shopee ID Payment Processing",
+    "icons": [
+      {
+        "src": "/assets/static/images/brand/shopee-blue.svg",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/assets/static/images/brand/shopee-blue.svg",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/?source=pwa",
+    "background_color": "#F15E40",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#F15E40"
+  }
+  
