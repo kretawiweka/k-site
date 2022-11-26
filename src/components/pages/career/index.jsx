@@ -9,6 +9,43 @@ const Career = () => {
           <div className="item">
             <div className="item-title">
               <img
+                src="/static/images/company/gtf.png"
+                className="item-img"
+                alt="gtf-logo"
+              />
+              <div className="title-text">
+                <h4 className="job-title">Software Engineer</h4>
+                <h4 className="company">GoTo Financial, Jakarta</h4>
+                <h4 className="work-time">July 2022 - Present</h4>
+              </div>
+            </div>
+            <div className="item-content">
+              <p>
+                In GoTo Financial, I am in Merchant Experience Team which
+                handles and develop Payment Gateway (Midtrans). These are some
+                of the projects I have worked as a Software Engineer (WebDev):
+              </p>
+              <ul>
+                <li>
+                  Develop one payment dashboard with Monorepo (Midtrans
+                  Dashboard: Partner and Merchant)
+                </li>
+                <li> Develop Midtrans SNAP Product</li>
+              </ul>
+              <br />
+              <p>Tech Stack:</p>
+              <ul>
+                <li>JavaScript</li>
+                <li>Reactjs</li>
+                <li>CSS Module</li>
+                <li>Lerna</li>
+              </ul>
+            </div>
+          </div>
+          <hr className="divider company-divider" />
+          <div className="item">
+            <div className="item-title">
+              <img
                 src="/static/images/company/shopee.jpeg"
                 className="item-img"
                 alt="shopee-logo"
@@ -16,8 +53,84 @@ const Career = () => {
               <div className="title-text">
                 <h4 className="job-title">Software Engineer</h4>
                 <h4 className="company">Shopee, Jakarta</h4>
-                <h4 className="work-time">June 2020 - Present</h4>
+                <h4 className="work-time">June 2020 - July 2022</h4>
               </div>
+            </div>
+            <div className="item-content">
+              <p>
+                In shopee, I am in SIPP (Shopee Indonesia Payment Processing)
+                Team which handle all payment on Shopee Indonesia. These are
+                some of the projects I have worked as Software Engineer
+                especially on Frontend Engineer on SIPP Team :
+              </p>
+              <ul>
+                <li>
+                  Create custom framework for static page (HTML, ES6, SCSS,
+                  Webpack)
+                </li>
+                <li>Create Common Component for dashboard</li>
+                <li>
+                  Developed Frontend Credit Card Core Payment System with
+                  Next.js, Typescript and gRPC
+                </li>
+                <li>
+                  Developed Frontend Direct Debit (BCA OneKlik) Core Payment
+                  System with Next.js and Typescript
+                </li>
+                <li>
+                  Rewrite Payment Dashboard (Virtual Account, Direct Debit and
+                  Credit Card) with Monolithic Repository (Monorepo) concept
+                  with lerna
+                </li>
+              </ul>
+            </div>
+          </div>
+          <hr className="divider company-divider" />
+          <div className="item">
+            <div className="item-title">
+              <img
+                src="/static/images/company/rakamin.png"
+                className="item-img"
+                alt="rakamin-logo"
+              />
+              <div className="title-text">
+                <h4 className="job-title">
+                  Part Time Mentor of Frontend Engineer and Final Project
+                </h4>
+                <h4 className="company">Rakamin Academy, Jakarta</h4>
+                <h4 className="work-time">July 2021 - October 2021</h4>
+              </div>
+            </div>
+            <div className="item-content">
+              <p>
+                Mentor of Frontend Engineer Thematic Academy Digital Talent
+                Scholarship Ministry of Communication and Informatics :
+              </p>
+              <ul>
+                <li>
+                  Create material with topic: Introduction to Software Engineer,
+                  HTML and CSS Mastery, and Authentication {'&'} Authorization
+                  in Reactjs
+                </li>
+                <li>
+                  Teach with topic: Introduction to Software Engineer, HTML and
+                  CSS Mastery, Javascript Programming, Reactjs, and
+                  Authentication {'&'} Authorization in Reactjs
+                </li>
+              </ul>
+              <br />
+              <p>
+                Mentor of Final Project Thematic Academy Digital Talent
+                Scholarship Ministry of Communication and Informatics:
+              </p>
+              <ul>
+                <li>
+                  Mentor of Backend and Frontend Final Project: Bank Dashboard
+                </li>
+                <li>
+                  The tech stack of backend use Golang and frontend use Reactjs
+                </li>
+              </ul>
             </div>
           </div>
           <hr className="divider company-divider" />

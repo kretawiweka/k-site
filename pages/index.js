@@ -2,7 +2,7 @@ import { Fragment } from 'react';
 import Profile from '../src/components/pages/profile';
 import SocialMedia from '../src/components/pages/social-media';
 import Career from '../src/components/pages/career';
-import Article from '../src/components/pages/article';
+// import Article from '../src/components/pages/article';
 
 const HomePage = () => {
   return (
@@ -20,9 +20,11 @@ const HomePage = () => {
           <div className="item-section ">
             <Career />
           </div>
+          {/*
           <div className="item-section ">
             <Article />
           </div>
+          */}
         </div>
       </div>
     </Fragment>

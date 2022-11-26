@@ -1,5 +1,5 @@
 import React from 'react';
-import { GitHub, Linkedin } from 'react-feather';
+import { GitHub, Linkedin, Twitter } from 'react-feather';
 import Card from '../../common/Card';
 
 const SocialMedia = () => {
@@ -28,6 +28,16 @@ const SocialMedia = () => {
             </a>
           </div>
           <div className="item">
+            <Twitter color="#5374ff" size="21" />
+            <a
+              target="__blank"
+              href="https://twitter.com/kretawiweka_ns"
+              className="link-item"
+            >
+              Twitter
+            </a>
+          </div>
+          <div className="item">
             <img
               className="icon-item"
               src="/static/images/icon/medium-icon.svg"
@@ -49,7 +59,7 @@ const SocialMedia = () => {
             />
             <a
               target="__blank"
-              href="https://justblog.kretawiweka.site/"
+              href="https://haveone.space"
               className="link-item"
             >
               Blog
